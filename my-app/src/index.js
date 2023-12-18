@@ -10,7 +10,7 @@ import IndexExample from './IndexExample';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/*<App />*/}
     <Count /> 
     <ToggleButton/> 
     <IndexExample/>
