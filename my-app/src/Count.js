@@ -6,7 +6,7 @@ function AddCount(){
      const [count, setCount]= useState(0);
 
      const increament = ()=> {
-        setCount(count +5 );
+        setCount(count -5 );
      }
     return(
         <div>
