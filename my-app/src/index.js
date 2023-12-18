@@ -3,17 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Count from './Count';
-import ToggleButton from './ToggleButton';
-import IndexExample from './IndexExample';
+import Count from './js/Count';
+import ToggleButton from './js/ToggleButton';
+import IndexExample from './js/IndexExample';
+import ImageChange from './js/ImageChange';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/*<App />*/}
-    <Count /> 
-    <ToggleButton/> 
-    <IndexExample/>
+    {/*<Count />*/} 
+    {/*<ToggleButton/>*/}
+    <ImageChange/>
   </React.StrictMode>
 );
 
