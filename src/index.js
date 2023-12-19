@@ -10,6 +10,9 @@ import ImageChange from './js/ImageChange';
 import ObjectExample from './js/ObjectExample';
 import Animal from './js/Animal';
 import TimerCount from './js/TimerCount';
+import ExampleCallback from './js/ExampleCallback';
+import PracticeTwo from './js/PracticeTwo';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,7 +24,10 @@ root.render(
     {/*<ImageChange/>*/}
     {/*<ObjectExample/>*/}
     {/*<Animal/>*/}
-    <TimerCount/>
+    {/*<TimerCount/>*/}
+    {/*<ExampleCallback/>*/}
+    <PracticeTwo/>
+
   </React.StrictMode>
 );
 
