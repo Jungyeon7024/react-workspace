@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, useEffect} from 'react';
 function  R003_ImportComponent() {
 	 
 	return (
@@ -7,3 +7,4 @@ function  R003_ImportComponent() {
 
 }
 export default R003_ImportComponent;
+
