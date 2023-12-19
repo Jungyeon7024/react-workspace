@@ -8,6 +8,9 @@ import ToggleButton from './js/ToggleButton';
 import IndexExample from './js/IndexExample';
 import ImageChange from './js/ImageChange';
 import ObjectExample from './js/ObjectExample';
+import Animal from './js/Animal';
+import TimerCount from './js/TimerCount';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +19,9 @@ root.render(
     {/*<Count />*/} 
     {/*<ToggleButton/>*/}
     {/*<ImageChange/>*/}
-    <ObjectExample/>
+    {/*<ObjectExample/>*/}
+    {/*<Animal/>*/}
+    <TimerCount/>
   </React.StrictMode>
 );
 
