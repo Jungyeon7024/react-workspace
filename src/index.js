@@ -18,7 +18,7 @@ import PracticeTwo from './js/PracticeTwo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/*<App />*/}
+    <App />
     {/*<Count />*/} 
     {/*<ToggleButton/>*/}
     {/*<ImageChange/>*/}
@@ -26,7 +26,7 @@ root.render(
     {/*<Animal/>*/}
     {/*<TimerCount/>*/}
     {/*<ExampleCallback/>*/}
-    <PracticeTwo/>
+    {/*<PracticeTwo/>*/}
 
   </React.StrictMode>
 );
