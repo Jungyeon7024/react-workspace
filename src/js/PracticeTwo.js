@@ -1,5 +1,5 @@
 import React, {useCallback, useEffect, useState} from "react";
-
+import '../css/PracticeTwo.css';
 
 function PracticeTwo() { 
     const [todos, setTodos] = useState([]);
@@ -39,7 +39,7 @@ function PracticeTwo() {
     
       return (
         <div>
-          <h2>useState를 활용한 To do List</h2>
+          <h2>To DO List</h2>
             <div>
                     <input type="text" value={newTodo} onChange={(e) => setNewTodo(e.target.value)}/>
                     <button onClick={() => { addTodo(); increaClick();  }}>Add</button>

@@ -1,0 +1,36 @@
+
+
+.PracticeTwo {
+    text-align: center;
+  }
+  
+  h2 {
+    color: #80f6e1d5;
+  }
+  
+  input {
+    margin-right: 8px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 8px 0;
+    padding: 8px;
+    border: 1px solid #b44e4e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #966bfa;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
